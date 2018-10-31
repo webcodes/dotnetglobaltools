@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "a255010d9258f41436ef7c002412e3316641b50c"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "myvault/1.0.0": {
+        "dependencies": {
+          "McMaster.Extensions.CommandLineUtils": "2.2.3"
+        },
+        "runtime": {
+          "myvault.dll": {}
+        }
+      },
+      "McMaster.Extensions.CommandLineUtils/2.2.3": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/McMaster.Extensions.CommandLineUtils.dll": {
+            "assemblyVersion": "2.2.3.0",
+            "fileVersion": "2.2.3.272"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.4.1": {}
+    }
+  },
+  "libraries": {
+    "myvault/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "McMaster.Extensions.CommandLineUtils/2.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R6+ofR77IOL4UK+C1SoshrJ3tH+c4IcTZlPD7yVQVUEOt18Bsyv/qy8v2XSo0pWmbXxUEPSAQ7XB8JfpIInX9A==",
+      "path": "mcmaster.extensions.commandlineutils/2.2.3",
+      "hashPath": "mcmaster.extensions.commandlineutils.2.2.3.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9u9RA7adeZVCX5Jd0iJHNcZThjCdv7YbyC3ouznQQLCIjOFLSFkZZdGPGH1pUmyGLwrcBYnigT76JZu2blzQAA==",
+      "path": "system.componentmodel.annotations/4.4.1",
+      "hashPath": "system.componentmodel.annotations.4.4.1.nupkg.sha512"
+    }
+  }
+}
